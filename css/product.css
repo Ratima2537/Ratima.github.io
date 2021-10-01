@@ -1,0 +1,151 @@
+.product{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+   background-image: url('../img/2542.jpg');
+   background-position:center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   transform: scaleY(-1);
+   z-index: -11;
+   justify-content: center;
+   align-items: center;
+
+   
+}
+.collection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+
+     
+     
+}
+.collection .item1{
+    color: #fff;
+    font-size: 60px;
+    transform: scaleY(-1);
+    background: rgba(0, 0, 0, 0.37);
+    box-shadow: 0 10px 8px 0 rgb(0, 0, 0);
+  transition: 0.3s;
+  width: 30vw;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 20px 20px 0 0;
+}
+
+.collection .item1 img {
+    width: auto;
+    height: 50vh;
+
+    border-radius: 5px 5px 0 0;
+
+}
+
+.collection .item1 p {
+    width: 40%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.178);
+    margin: 30px auto;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 30px;
+  mix-blend-mode: screen;
+  border-radius: 0 1000px 0 1000px;
+  transition-duration: 0.5s;
+ 
+}
+
+.collection .item1 p:hover {
+    width: 60%;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    color: rgba(248, 248, 248, 0.74);
+    background-color: rgba(255, 255, 255, 0.521);
+    mix-blend-mode: screen;
+}
+
+.collection .item1 p a{
+  text-decoration: none;
+  width: 80%;
+    text-align: center;
+
+
+  color: rgba(248, 248, 248, 0.74);
+  font-weight: bold;
+  font-size: 30px;
+  border-radius: 0 1000px 0 1000px;
+  transition-duration: 0.5s;
+}
+.collection .item1 p a:hover{
+  color: rgba(0, 0, 0, 0.692);
+  transition-duration: 0.5s;
+}
+
+
+.collection .item2{
+    color: #fff;
+    font-size: 60px;
+    transform: scaleY(-1);
+    background: rgba(255, 255, 255, 0.308);
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.973);
+  transition: 0.3s;
+  width: 30vw;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 20px 20px 0 0;
+}
+
+.collection .item2 img {
+    width: auto;
+    height: 50vh;
+    border-radius: 5px 5px 0 0;
+
+}
+
+.collection .item2 p {
+    width: 40%;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    margin: 30px auto;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 30px;
+  mix-blend-mode: screen;
+  border-radius: 0 1000px 0 1000px;
+  transition-duration: 0.5s;
+ 
+}
+
+.collection .item2 p:hover {
+  width: 50%;
+  text-align: center;
+  background-color: rgba(8, 8, 8, 0.753);
+  margin: 30px auto;
+font-weight: bold;
+font-size: 30px;
+mix-blend-mode: screen;
+border-radius: 0 1000px 0 1000px;
+transition-duration: 0.5s;
+}
+
+.collection .item2 p a{
+  text-decoration: none;
+  width: 80%;
+    text-align: center;
+
+
+  color: rgba(0, 0, 0, 0.979);
+  font-weight: bold;
+  font-size: 30px;
+  border-radius: 0 1000px 0 1000px;
+  transition-duration: 0.5s;
+}
+.collection .item2 p a:hover{
+  color: rgba(252, 252, 252, 0.87);
+  transition-duration: 0.5s;
+}
+
+

@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+html {
+    scroll-behavior: smooth;
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll; 
+  }
+
+  html::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+  }
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background: rgb(3, 3, 3);
+    display: flex;
+
+
+}
+.fulid{
+    background-image: url('../img/001.jpg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.fulid img{
+    
+    width: 35vw;
+    border: 9px solid rgb(0, 0, 0);
+    border-radius: 20px 0 20px 0;
+    height: auto;
+    background-color: rgba(8, 8, 8, 0.87);
+    box-shadow:  2px 10px 8px 0 rgb(44, 44, 44);
+    
+    
+}
+
+@media screen and (max-width: 560px) {
+    .fulid img{
+        width: 80vw;
+    }
+  }
+
+.fulid .header{
+    padding: 60px;
+    font-size: 2rem;
+    color: #fff;
+}
+.fulid .detail{
+   width: 40vw;
+   padding: 20px;
+text-shadow: 0 0 10px #fff, 0 0 20px rgb(226, 7, 7), 0 0 30px #fd0303, 0 0 40px #131313, 0 0 50px #07295c, 0 0 60px #f31818, 0 0 70px #0e0d0d;
+   color: #fff;
+   font-size: 30px;
+    text-align: center;
+}
+
+.fulid a{
+    padding-top: 20px;
+    text-decoration: none;
+    color: #fff;
+}
